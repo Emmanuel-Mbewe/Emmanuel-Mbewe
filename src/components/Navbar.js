@@ -17,14 +17,14 @@ const Navbar = () => {
         <div className="flex items-center justify-center h-16">
           <div className="flex items-center space-x-8">
             <div className="flex-shrink-0">
-              <a href="#" className="text-black font-bold text-xl">Emmanuel Mbewe</a>
+              <a href="/" className="text-black font-bold text-xl">Emmanuel Mbewe</a>
             </div>
 
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-black hover:text-gray-700">Home</a>
-              <a href="#about" className="text-black hover:text-gray-700">About</a>
+              <a href="/" className="text-black hover:text-gray-700">Home</a>
+              <a href="about" className="text-black hover:text-gray-700">About</a>
               <a href="#blog" className="text-black hover:text-gray-700">Blog</a>
-              <a href="#contact" className="text-black hover:text-gray-700">Contact</a>
+              <a href="contact" className="text-black hover:text-gray-700">Contact</a>
             </div>
 
             <div className="hidden md:flex items-center space-x-4">
@@ -37,7 +37,7 @@ const Navbar = () => {
               </div>
 
               <div className="flex space-x-3 text-black">
-                <a href="#"><FaFacebook className="hover:text-gray-700" /></a>
+                <a href="https://web.facebook.com/profile.php?id=100095368848132"><FaFacebook className="hover:text-gray-700" /></a>
                 <a href="#"><FaTwitter className="hover:text-gray-700" /></a>
                 <a href="#"><FaInstagram className="hover:text-gray-700" /></a>
               </div>

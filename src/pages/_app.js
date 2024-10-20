@@ -6,9 +6,9 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Emmanuel</title>
+        <title>E. Mbewe</title>
         <meta name="description" content="Welcome to Emmanuel's blog" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />
