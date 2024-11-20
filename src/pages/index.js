@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import Head from 'next/head';
+import Link from 'next/link';
 
 const Home = () => {
   // Image sets for each card
-  const graphicDesignerImages = ['/images/Emmanuel.jpg', '/images/Emmanuel.jpg', '/images/Emmanuel.jpg'];
+  const graphicDesignerImages = ['/images/designs/Young.jpg', '/images/designs/Physics.png', '/images/designs/Certificate.png'];
   const educatorImages = ['/images/Emmanuel.jpg', '/images/Emmanuel.jpg', '/images/Emmanuel.jpg'];
   const scientistImages = ['/images/Emmanuel.jpg', '/images/Emmanuel.jpg', '/images/Emmanuel.jpg'];
 
@@ -41,9 +41,11 @@ const Home = () => {
             />
             <h2 className="text-2xl font-semibold mt-4">Graphic Designer</h2>
             <p className="mt-2 text-gray-600">Creating stunning visuals that communicate ideas effectively.</p>
-            <button className="mt-4 px-4 py-2 bg-black text-white rounded-full hover:bg-blue-600 focus:outline-none">
-              Read More
-            </button>
+<button className="mt-4 px-4 py-2 bg-black text-white rounded-full hover:bg-blue-600 focus:outline-none">
+  <Link href="/graphic-designer">
+    Read More
+  </Link>
+</button>
           </div>
 
           {/* Educator Card */}
@@ -73,8 +75,6 @@ const Home = () => {
               Read More
             </button>
           </div>
-
-          {/* You can add more cards with sliding images in the same pattern */}
 
         </div>
       </main>
