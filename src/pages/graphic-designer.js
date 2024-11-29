@@ -32,11 +32,6 @@ const GraphicDesignerPortfolio = () => {
       title: 'Tutorial Poster',
       description: 'An informative poster for an online tutorial series.',
     },
-    {
-      src: '/images/designs/Tutorial Poster.png',
-      title: 'Tutorial Poster',
-      description: 'An informative poster for an online tutorial series.',
-    },
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
