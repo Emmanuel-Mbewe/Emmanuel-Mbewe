@@ -43,7 +43,9 @@ const Home = () => {
             <h2 className="text-2xl font-semibold mt-4">Educator</h2>
             <p className="mt-2 text-gray-600">Passionate about teaching and inspiring the next generation.</p>
             <button className="mt-4 px-4 py-2 bg-black text-white rounded-full hover:bg-blue-600 focus:outline-none">
-              Read More
+              <Link href="/edu-content">
+                  Read More
+              </Link>
             </button>
           </div>
 
@@ -75,7 +77,9 @@ const Home = () => {
             <h2 className="text-2xl font-semibold mt-4">Computer Scientist</h2>
             <p className="mt-2 text-gray-600">Exploring the depths of technology and innovation.</p>
             <button className="mt-4 px-4 py-2 bg-black text-white rounded-full hover:bg-blue-600 focus:outline-none">
-              Read More
+              <Link href="/graphic-designer">
+                  Read More
+              </Link>
             </button>
           </div>
 
