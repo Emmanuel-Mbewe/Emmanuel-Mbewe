@@ -32,22 +32,7 @@ const Home = () => {
       <main className="flex flex-col items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
-          {/* Graphic Designer Card */}
-          <div className="bg-white rounded-lg shadow-md p-6 text-center">
-            <img
-              src={useImageSlider(graphicDesignerImages)}
-              alt="Graphic Designer"
-              className="rounded-t-lg w-full h-48 object-cover"
-            />
-            <h2 className="text-2xl font-semibold mt-4">Graphic Designer</h2>
-            <p className="mt-2 text-gray-600">Creating stunning visuals that communicate ideas effectively.</p>
-<button className="mt-4 px-4 py-2 bg-black text-white rounded-full hover:bg-blue-600 focus:outline-none">
-  <Link href="/graphic-designer">
-    Read More
-  </Link>
-</button>
-          </div>
-
+          
           {/* Educator Card */}
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
             <img
@@ -61,6 +46,24 @@ const Home = () => {
               Read More
             </button>
           </div>
+
+
+          {/* Graphic Designer Card */}
+          <div className="bg-white rounded-lg shadow-md p-6 text-center">
+            <img
+              src={useImageSlider(graphicDesignerImages)}
+              alt="Graphic Designer"
+              className="rounded-t-lg w-full h-48 object-cover"
+            />
+            <h2 className="text-2xl font-semibold mt-4">Graphic Designer</h2>
+            <p className="mt-2 text-gray-600">Creating stunning visuals that communicate ideas effectively.</p>
+            <button className="mt-4 px-4 py-2 bg-black text-white rounded-full hover:bg-blue-600 focus:outline-none">
+              <Link href="/graphic-designer">
+                  Read More
+              </Link>
+            </button>
+          </div>
+
 
           {/* Computer Scientist Card */}
           <div className="bg-white rounded-lg shadow-md p-6 text-center">
