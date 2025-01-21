@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import '../styles/globals.css';
-import Layout from '@/components/layout';
+import Layout from '@/components/Layout';
 
 const MyApp = ({ Component, pageProps }) => {
   return (
