@@ -75,19 +75,19 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="/" className="block text-black hover:text-gray-700">Home</a>
-            <a href="/about" className="block text-black hover:text-gray-700">About</a>
+          <div className="bg-blue-700 text-white px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <a href="/" className="block hover:text-black">Home</a>
+            <a href="/about" className="block hover:text-black">About</a>
             
-            <a href="/cv" className="block text-black hover:text-gray-700">CV</a>
-            <a href="/projects" className="block text-black hover:text-gray-700">Projects</a>
+            <a href="/cv" className="block hover:text-black">CV</a>
+            <a href="/projects" className="block hover:text-black">Projects</a>
             <div className="flex justify-center mt-4 space-x-3">
-              <a href="https://web.facebook.com/profile.php?id=100095368848132"><FaFacebook className="hover:text-gray-700 text-black" /></a>
-              <a href="#"><FaTwitter className="hover:text-gray-700 text-black" /></a>
-              <a href="#"><FaInstagram className="hover:text-gray-700 text-black" /></a>
+              <a href="https://web.facebook.com/profile.php?id=100095368848132"><FaFacebook className="hover:text-black" /></a>
+              <a href="#"><FaTwitter className="hover:text-black" /></a>
+              <a href="#"><FaInstagram className="hover:text-black" /></a>
             </div>
-            <a href="/contact" className="block text-black hover:text-gray-700">Contact</a>
-            <a href="/blog" className="block text-black hover:text-gray-700">Blog</a>
+            <a href="/contact" className="block hover:text-black">Contact</a>
+            <a href="/blog" className="block hover:text-black">Blog</a>
           </div>
         </div>
       )}
