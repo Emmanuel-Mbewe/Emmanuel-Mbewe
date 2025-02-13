@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const Home = () => {
   // Image sets for each card
-  const graphicDesignerImage = '/images/designs/Zanyengo.jpg';
-  const webImage = '/images/designs/Zanyengo.jpg';
-  const appImage = '/images/designs/Zanyengo.jpg';
+  const graphicDesignerImage = '/images/designs/EdTech 1.jpg';
+  const webImage = '/images/software/Emmanuel 1.png';
+  const appImage = '/images/software/mobile.jpg';
   const educatorImage = '/images/Emmanuel.jpg';
 
   return (
@@ -26,7 +26,7 @@ const Home = () => {
           </p>
           <Link
             href="/projects"
-            className="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-full text-lg font-semibold transition duration-300"
+            className="px-8 py-3 bg-orange-600 hover:bg-blue-700 rounded-full text-lg font-semibold transition duration-300"
           >
             View My Work
           </Link>

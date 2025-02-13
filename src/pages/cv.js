@@ -19,16 +19,18 @@ const Cv = () => {
 
         <h3 className="text-lg font-semibold text-gray-800">Personal Profile</h3>
         <p>
-          A self-motivated educator with expertise in computer science, mathematics, educational technology, and classroom management. Experienced in teaching Mathematics and Computer Studies, mentoring students, and contributing to educational advancements. Adept at using innovative teaching methods and technical skills to create engaging learning environments.
+        A self-motivated teacher and computer scientist with a Bachelor of Education in Computer Science. 
+        I have experience in teaching Mathematics and Computer Studies, mentoring students, and using technology in education. 
+        I also have four years of experience in tech, working on different projects while I was a student. 
+        I also continuously work on programming and graphic design projects. 
+        My skills include web development, cybersecurity, graphic design, and programming. 
         </p>
         <hr className="my-4" />
 
         <h3 className="text-lg font-semibold text-gray-800">Biodata</h3>
         <ul className="list-disc list-inside">
-          <li><strong>Surname:</strong> Mbewe</li>
-          <li><strong>First Name:</strong> Emmanuel</li>
-          <li><strong>Middle Name:</strong> Binalison</li>
           <li><strong>Title:</strong> Mr.</li>
+          <li><strong>Full Name:</strong> Emmanuel Binalison Mbewe</li>
           <li><strong>Nationality:</strong> Malawian</li>
           <li><strong>District of Origin:</strong> Kasungu</li>
           <li><strong>Traditional Authority:</strong> Kaomba</li>
@@ -49,7 +51,20 @@ const Cv = () => {
         </ol>
         <hr className="my-4" />
 
-        <h3 className="text-lg font-semibold text-gray-800">Professional Experience</h3>
+        <h3 className="text-lg font-semibold text-gray-800">Tech Experience</h3>
+        <div>
+          <ul className="list-disc list-inside">
+            <li>Co-developed the Malawi Education Enhancement Platform (MEEP), improving education in Malawi, presented at EdTech@UNIMA 2024. – 2024</li>
+            <li>Partnered with Physics students to implement an automated solar-based irrigation system; developed the Android application. – 2024</li>
+            <li>Created the Campus Food Sharing mobile app, promoting food sustainability and sharing among students. – 2023</li>
+            <li>Collaborated on the Agricultural Information System project, integrating technology for agricultural data management. – 2023</li>
+            <li>Developed the Exam Past Paper Repository, enhancing student access to past exam materials. – 2022</li>
+            <li>Cybersecurity Awareness: Trained students on online safety and security best practices. – 2025</li>
+          </ul>
+        </div>
+        <hr className="my-4" />
+
+        <h3 className="text-lg font-semibold text-gray-800">Teaching Experience</h3>
         <div>
           <p><strong>1. Student Teacher</strong> – Mtendere Secondary School (2024/2025 Academic Year)</p>
           <ul className="list-disc list-inside">
@@ -59,18 +74,20 @@ const Cv = () => {
             <li>Administering and marking assessments.</li>
           </ul>
 
-          <p className="mt-4"><strong>2. Assistant Teacher</strong> – Likangala Secondary School (2023)</p>
+          <p className="mt-4"><strong>2. Peer and Micro Teaching – University of Malawi (2021 – 2023)</strong></p>
           <ul className="list-disc list-inside">
-            <li>Encouraging creativity and innovation in students.</li>
-            <li>Maintaining teaching materials.</li>
-            <li>Monitoring students' academic progress.</li>
+            <li>Practiced teaching with fellow students in a controlled environment</li>
+            <li>Received feedback to improve lesson delivery and classroom management</li>
           </ul>
 
-          <p className="mt-4"><strong>3. Private Tutor (Part-Time)</strong> – 2019–2024</p>
+          <p className="mt-4"><strong>3. Private Tutor (Part-Time)</strong> – 2019 – present</p>
           <ul className="list-disc list-inside">
             <li>Preparing lesson plans and content.</li>
             <li>Delivering personalized lessons.</li>
             <li>Administering and marking assessments.</li>
+            <li>Teaching Mathematics, Computer Science, Physics, Chemistry, and Biology</li>
+            <li>Helping students improve their grades with personalized learning</li>
+            <li>Training students in coding, basic cybersecurity, graphic design and web development</li>
           </ul>
         </div>
         <hr className="my-4" />

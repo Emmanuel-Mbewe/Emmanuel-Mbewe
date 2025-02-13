@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-4">
             {/* Logo and Name */}
-            <Image src="/images/Emma.jpg" alt="Logo" width={40} height={40} className="rounded-full" />
+            <a href="/" > <Image src="/images/Emma.jpg" alt="Logo" width={40} height={40} className="rounded-full" /> </a>
             <a href="/" className="text-black font-bold text-xl">Emmanuel</a>
           </div>
 

@@ -1,0 +1,22 @@
+{
+    "graphic-design": [
+        { "id": 1, "title": "T-Shirt Design", "image": "/images/designs/Zanyengo.jpg", "description": "Zanyengo t-shirt design for meteorologists" },
+        { "id": 2, "title": "Poster Design", "image": "/images/designs/EdTech.jpg", "description": "EdTech poster deisgn for online par-time classes" },
+        { "id": 3, "title": "Certificate Design", "image": "/images/designs/Certificate.jpg", "description": "A Certificate Designed for CCAPSO awards" },
+        { "id": 4, "title": "Rates", "image": "/images/designs/Rates.jpg", "description": "A Rating Card" },
+        { "id": 5, "title": "Product Design", "image": "/images/designs/Physics.png", "description": "Replicated the deisgn for Physics society t-shirt" },
+        { "id": 6, "title": "Cape", "image": "/images/designs/Cape.jpg", "description": "Designed Valentine's Cape" },
+        { "id": 7, "title": "Packaging Design", "image": "/images/designs/Gift Bag 1.jpg", "description": "Designed Valentine's gift bag" }
+    ],
+    "web": [
+        { "id": 1, "title": "Portfolio Website", "image": "/images/software/Emmanuel.png", "description": "Designed and Developed my portfolio website" }
+    ],
+    "mobile-app": [
+        
+    ],
+    "teaching-education": [
+        { "id": 1, "title": "Part-Time classes", "image": "/images/education/EdTech Physical.jpg", "description": "Offers physical part-time classes to MSCE students in the followin subject: Biology, Mathematics, Physics and Chemistry" },
+        { "id": 2, "title": "Online Part-Time classes", "image": "/images/education/EdTech.jpg", "description": "Offers online part-time classes to MSCE students in the following subjects: Biology, Mathematics, Physics plus Computer Studies" }
+    ]
+  }
+  
